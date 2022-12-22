@@ -280,7 +280,7 @@
 
 .u-section-2 .u-text-2 {
   font-size: 1.125rem;
-  margin: 27px 46px 0 32px;
+  margin: 27px 46px 40px 32px;
 }
 
 .u-section-2 .u-image-2 {
@@ -324,7 +324,7 @@
   }
 
   .u-section-2 .u-image-2 {
-    margin-top: -206px;
+    margin-top: -150px;
     margin-right: -111px;
     margin-bottom: -234px;
   }
@@ -345,7 +345,7 @@
   .u-section-2 .u-image-2 {
     width: 500px;
     height: 333px;
-    margin-top: -199px;
+    margin-top: -120px;
     margin-right: -23px;
     margin-bottom: -194px;
   }
@@ -438,6 +438,7 @@
 } .u-section-3 {
   background-image: url("images/speakers-bg-black.jpg");
   background-position: 50% 50%;
+  margin-top:60px;
 }
 
 .u-section-3 .u-sheet-1 {
