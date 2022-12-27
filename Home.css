@@ -830,7 +830,7 @@
 }
 
 .u-section-5 .u-container-layout-3 {
-  padding: 30px 0 0;
+  padding: 25px 0 0;
 }
 
 .u-section-5 .u-image-3 {
@@ -1941,9 +1941,9 @@
 }
 
 .u-section-6 .u-repeater-1 {
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 33.3333% 33.3333% 33.3333%;
   min-height: 203px;
-  grid-gap: 0px 0px;
+  grid-gap: 25px 0px;
 }
 
 .u-section-6 .u-container-layout-1 {
@@ -1955,7 +1955,7 @@
   width: 201px;
   background-image: url("images/devfolio.png");
   background-position: 50% 50%;
-  margin: 0 auto 0 38px;
+  margin: 0 auto;
 }
 
 .u-section-6 .u-container-layout-2 {
@@ -1967,7 +1967,7 @@
   width: 201px;
   background-image: url("images/polygon1.png");
   background-position: 50% 50%;
-  margin: 0 auto 0 38px;
+  margin: 0 auto;
 }
 
 .u-section-6 .u-container-layout-3 {
@@ -1979,8 +1979,16 @@
   width: 201px;
   background-image: url("images/solana.png");
   background-position: 50% 50%;
-  margin: 0 auto 0 38px;
+  margin: 0 auto ;
 }
+
+/* .u-section-6 .u-image-5 {
+  height: 201px;
+  width: 201px;
+  background-image: url("images/solana.png");
+  background-position: 50% 50%;
+  margin: 0 auto 0 38px;
+} */
 
 .u-section-6 .u-container-layout-4 {
   padding: 0 0 0 4px;
@@ -1991,7 +1999,15 @@
   width: 201px;
   background-image: url("images/replit2.png");
   background-position: 50% 50%;
-  margin: 0 auto 0 38px;
+  margin: auto 75%;
+}
+
+.u-section-6 .u-image-52 {
+  height: 201px;
+  width: 201px;
+  background-image: url("images/filecoin.webp");
+  background-position: 50% 50%;
+  margin: auto 75%;
 }
 
 .u-section-6 .u-text-2 {
@@ -2241,6 +2257,10 @@
     margin-left: 76px;
   }
 
+  .u-section-6 .u-image-52 {
+    margin-left: 76px;
+  }
+
   .u-section-6 .u-text-2 {
     margin-top: 79px;
   }
@@ -2336,6 +2356,11 @@
     margin-left: 31px;
   }
 
+  .u-section-6 .u-image-52 {
+    margin-top: 27px;
+    margin-left: 31px;
+  }
+
   .u-section-6 .u-list-2 {
     width: 524px;
     margin-left: calc(((100% - 540px) / 2));
@@ -2404,6 +2429,13 @@
   }
 
   .u-section-6 .u-image-5 {
+    height: 148px;
+    width: 148px;
+    margin-top: 0;
+    margin-left: 4px;
+  }
+
+  .u-section-6 .u-image-52 {
     height: 148px;
     width: 148px;
     margin-top: 0;
