@@ -46,6 +46,10 @@ background-color: #2E1942;
 .buttons{
     display: flex;
     flex-direction: row;
+<<<<<<< Updated upstream
+=======
+    margin-left:200px;
+>>>>>>> Stashed changes
 }
 #login{
     font-family: 'Nunito Sans';
@@ -81,3 +85,100 @@ height: 80px;
 border-radius: 8px;
 margin-right: 24px;
 }
+<<<<<<< Updated upstream
+=======
+#overview--heading{
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    margin-left: 174px;
+    margin-top: 56px;
+    font-weight: 700;
+}
+#overview--img{
+    width: 1000px;
+    height: 460px;
+    margin-left: 172px;
+    margin-top: 30px;
+    border-radius:8px;
+}
+#imgandtimer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+#timer{
+    background: #22417C;
+    height: 460px;
+    width: 450px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left:30px;
+    display: flex;
+}
+#timer--purplestick{
+width: 3px;
+height: 132px;
+background: #342A66;
+border-radius: 1.5px;
+margin-left: 32px;
+margin-top: 32px;
+}
+#timer--list{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+.timerfont1{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    color: #B4BEC0;
+    letter-spacing: 1.68px;
+}
+.timerfont2{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Nunito Sans";
+    color: #E9EFF2;
+}
+#space{
+    margin-top: 16.5px;
+}
+#timer--appclose{
+    margin-top: 40px;
+    width: 360px;
+    height: 100px;
+    background: #F0F4FF;
+    border-radius: 8px;
+    margin-left: -15px;
+}
+.timerfont3{
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    color: #8097F2;
+    letter-spacing: 1.68px;
+    margin-left: 16px;
+    padding-top: 15px;
+}
+.timerfont4{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    color: #143BE2;
+    letter-spacing: 1.68px;
+    margin-left: 16px;
+    padding-top: 15px;
+}
+#timer--apply{
+    background-color: #E45A2E;
+    width: 380px;
+    height: 80px;
+    margin-left: -15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
+>>>>>>> Stashed changes
