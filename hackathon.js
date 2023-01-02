@@ -6,7 +6,10 @@ const solanaBox = document.getElementById("solana");
 
 
 function polygon(){
-
+    polygonBox.style.backgroundColor = "#E45A2E";
+    replitBox.style.backgroundColor = "transparent";
+    filecoinBox.style.backgroundColor = "transparent";
+    solanaBox.style.backgroundColor = "transparent";
     prizeSection.innerHTML = `
     <h1 class="text-2xl font-bold mb-6">Polygon</h1>
             <p class="mb-4"><span class="text-[#3770FF] font-medium">Polygon</span> is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.</p>
@@ -20,6 +23,10 @@ function polygon(){
 }
 
 function replit(){
+    polygonBox.style.backgroundColor = "transparent";
+    replitBox.style.backgroundColor = "#E45A2E";
+    filecoinBox.style.backgroundColor = "transparent";
+    solanaBox.style.backgroundColor = "transparent";
     prizeSection.innerHTML = `
     <h1 class="text-2xl font-bold mb-6">Replit</h1>
             <p class="mb-4"><span class="text-[#3770FF] font-medium">Polygon</span> is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.</p>
@@ -32,6 +39,10 @@ function replit(){
     `;
 }
 function filecoin(){
+    polygonBox.style.backgroundColor = "transparent";
+    replitBox.style.backgroundColor = "transparent";
+    filecoinBox.style.backgroundColor = "#E45A2E";
+    solanaBox.style.backgroundColor = "transparent";
     prizeSection.innerHTML = `
     <h1 class="text-2xl font-bold mb-6">Filecoin</h1>
             <p class="mb-4"><span class="text-[#3770FF] font-medium">Polygon</span> is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.</p>
@@ -44,6 +55,10 @@ function filecoin(){
     `;
 }
 function solana(){
+    polygonBox.style.backgroundColor = "transparent";
+    replitBox.style.backgroundColor = "transparent";
+    filecoinBox.style.backgroundColor = "transparent";
+    solanaBox.style.backgroundColor = "#E45A2E";
     prizeSection.innerHTML = `
     <h1 class="text-2xl font-bold mb-6">Solana</h1>
             <p class="mb-4"><span class="text-[#3770FF] font-medium">Polygon</span> is a protocol and a framework for building and connecting Ethereum-compatible blockchain networks.</p>
