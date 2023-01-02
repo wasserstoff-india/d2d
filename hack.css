@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/nicomoji.css);
+#navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 24px 80px;
+gap: 232px;
+height: 103px;
+left: 0px;
+top: 0px;
+background-color: #2E1942;
+}
+#logo{
+    font-family: "Nico Moji";
+    font-size: 44px;
+    color:#E14817;
+}
+#navlist{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navlist--item{
+    padding: 0 40px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    position: relative;
+}
+.navlist--item:after{
+    content: "";
+    position: absolute;
+    background-color:#E14817 ;
+    height: 1px;
+    bottom: -10px;
+    width: 0;
+    left: 0;
+}
+
+.navlist--item:hover:after{
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left:500px;
+}
+#login{
+    font-family: 'Nunito Sans';
+    width: 99px;
+    height: 46px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+#signup{
+    width: 99px;
+    height: 46px;
+    background: #E14817;
+    font-family: 'Nunito Sans';
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+#winter{
+justify-content: center;
+align-items: center;
+display: flex;
+height: 186px;
+left: 0px;
+top: 103px;
+background: #342A66;
+font-family: 'Nunito Sans';
+color: #FFFFFF;
+font-size: 36px;
+font-weight: 1000;
+}
+#woc{
+width: 90px;
+height: 90px;
+border-radius: 8px;
+}
