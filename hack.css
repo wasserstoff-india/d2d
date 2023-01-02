@@ -77,7 +77,8 @@ font-size: 36px;
 font-weight: 1000;
 }
 #woc{
-width: 90px;
-height: 90px;
+width: 80px;
+height: 80px;
 border-radius: 8px;
+margin-right: 24px;
 }
