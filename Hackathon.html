@@ -5,39 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./hack.css">
+    <link rel="stylesheet" href="./hack.css" />
     <title>Hackathon</title>
   </head>
   <body>
+    <nav id="navbar">
+      <h1 id="logo">D2D</h1>
+      <div id="navlist">
+        <a href="#home" class="navlist--item"> Home</a>
+        <a href="#about" class="navlist--item">About</a>
+        <a href="#pricing" class="navlist--item">Pricing</a>
+        <a href="#career" class="navlist--item">Career</a>
+        <a href="#blog" class="navlist--item">Blog</a>
+      </div>
+      <div class="buttons">
+        <button id="login">Log In</button>
+        <button id="signup">Sign Up</button>
+      </div>
+    </nav>
 
-<nav id="navbar">
-  <h1 id="logo">D2D</h1>
-  <div id="navlist">
-    <a href="#home" class="navlist--item"> Home</a>
-    <a href="#about" class="navlist--item">About</a>
-    <a href="#pricing" class="navlist--item">Pricing</a>
-    <a href="#career" class="navlist--item">Career</a>
-    <a href="#blog" class="navlist--item">Blog</a>
-  </ul>
-  <div class="buttons">
-    <button id="login">Log In</button>
-    <button id="signup">Sign Up</button>
-  </div>
-  </nav>
+    <div id="winter">
+      <img src="./WOC.png" id="woc" alt="Winter of Code" />
+      <h1>Winter of Code 3.0</h1>
+    </div>
 
-  <div id="winter">
-    <img src="./WOC.png" id="woc" alt="Winter of Code">
-    <h1>Winter of Code 3.0</h1>
-  </div>
-
-    <h1 class="bg-red-200">hello from tailwind</h1>
-    <div class="mx-20">
+    <div class="mx-[10rem]">
       <h1 class="font-semibold text-2xl">Rules</h1>
       <p class="ml-20">Follow the <strong>Code of Conduct.</strong></p>
     </div>
     <section>
       <div
-        class="grid grid-cols-2 gap-y-6 mx-20 my-10 place-items-start place-self-start w-3/5"
+        class="grid grid-cols-2 gap-y-6 mx-[10rem] my-10 place-items-start place-self-start w-3/5"
       >
         <div class="rounded-lg p-4 shadow-md">
           <div class="flex">
@@ -134,9 +132,9 @@
     <section id="prizes"></section>
 
     <section id="schedule" class="mx-[10rem] mt-5">
-      <h1 class="text-2xl font-semibold">Schedule</h1>
+      <h1 class="text-2xl font-semibold mb-5">Schedule</h1>
       <div
-        class="flex flex-col p-5 ml-5 text-white bg-[#352A6A] rounded-lg w-[65%]"
+        class="flex flex-col p-5 ml-5 text-white bg-[#352A6A] rounded-lg w-[67%]"
       >
         <h2 class="mb-2 font-semibold text-lg">HACKATHON TIMETABE</h2>
         <div class="flex justify-between items-center gap-5">
@@ -208,6 +206,62 @@
             >
               <img src="./images//clock.png" alt="" />
               <h3 class="font-light text-lg">11:59 PM</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="flex flex-col p-5 ml-5 text-white bg-[#352A6A] rounded-lg w-[67%] mt-10"
+      >
+        <div class="flex justify-between items-center text-center py-5">
+          <h2 class="text-white font-light">TALKS AND OTHER EVENTS</h2>
+          <div class="flex py-[12px] px-[15px] bg-[#F0A48B] rounded-lg gap-2">
+            <img src="./images/redcalender.png" alt="" />
+            <a href=""><h2 class="text-[#E14817] font-bold">Subscribe to Calender</h2></a> 
+          </div>
+        </div>
+        <div class="flex flex-row ml-5 justify-between items-start gap-5">
+          <div
+            class="w-[23rem] bg-white text-black font-bold flex flex-col items-start justify-start h-[15rem] rounded-xl p-5"
+          >
+            <h2 class="mb-7 font-bold text-2xl">Inaugural Ceremony</h2>
+            <div
+              class="flex flex-row justify-start gap-5  py-[10px] px-[15px] rounded-lg mb-3"
+            >
+              <h2 class="py-[10px] px-[15px] bg-[#F5F7F7] rounded-lg">TALK</h2>
+              <div class="flex flex-row justify-between text-center items-center gap-5 bg-[#F5F7F7] rounded-lg py-[10px] px-[15px] " >
+                <img src="./images//clock.png" alt="" />
+                <h3 class="font-light text-lg">12:00 AM</h3>
+              </div>
+            </div>
+            <div
+              class="mr-[4.5rem] flex flex-row justify-start gap-5 bg-[#F5F7F7] py-[10px] px-[15px] rounded-lg ml-[1rem]"
+            >
+
+              <img src="./images//calender.png" alt="" />
+              <h3 class="font-light text-lg">05 JANUARY 2023</h3>
+            </div>
+          </div>
+          
+          <div
+            class="w-[23rem] bg-white text-black font-bold flex flex-col items-start justify-start h-[15rem] rounded-xl p-5"
+          >
+            <h2 class="mb-7 font-bold text-2xl">Inaugural Ceremony</h2>
+            <div
+              class="flex flex-row justify-start gap-5  py-[10px] px-[15px] rounded-lg mb-3"
+            >
+              <h2 class="py-[10px] px-[15px] bg-[#F5F7F7] rounded-lg">TALK</h2>
+              <div class="flex flex-row justify-between text-center items-center gap-5 bg-[#F5F7F7] rounded-lg py-[10px] px-[15px] " >
+                <img src="./images//clock.png" alt="" />
+                <h3 class="font-light text-lg">12:00 AM</h3>
+              </div>
+            </div>
+            <div
+              class="mr-[4.5rem] flex flex-row justify-start gap-5 bg-[#F5F7F7] py-[10px] px-[15px] rounded-lg ml-[1rem]"
+            >
+
+              <img src="./images//calender.png" alt="" />
+              <h3 class="font-light text-lg">05 JANUARY 2023</h3>
             </div>
           </div>
         </div>
