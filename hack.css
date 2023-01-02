@@ -46,10 +46,7 @@ background-color: #2E1942;
 .buttons{
     display: flex;
     flex-direction: row;
-<<<<<<< Updated upstream
-=======
     margin-left:200px;
->>>>>>> Stashed changes
 }
 #login{
     font-family: 'Nunito Sans';
@@ -93,7 +90,7 @@ margin-right: 24px;
     font-weight: 700;
 }
 #overview--img{
-    width: 1000px;
+    width: 720px;
     height: 460px;
     margin-left: 172px;
     margin-top: 30px;
@@ -107,7 +104,7 @@ margin-right: 24px;
 #timer{
     background: #22417C;
     height: 460px;
-    width: 450px;
+    width: 400px;
     border-radius: 8px;
     margin-top: 30px;
     margin-left:30px;
@@ -143,7 +140,7 @@ margin-top: 32px;
 }
 #timer--appclose{
     margin-top: 40px;
-    width: 360px;
+    width: 300px;
     height: 100px;
     background: #F0F4FF;
     border-radius: 8px;
@@ -168,7 +165,7 @@ margin-top: 32px;
 }
 #timer--apply{
     background-color: #E45A2E;
-    width: 380px;
+    width: 300px;
     height: 80px;
     margin-left: -15px;
     border-radius: 8px;
