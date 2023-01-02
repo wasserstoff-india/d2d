@@ -3,7 +3,6 @@
 
 #navbar{
 display: flex;
-flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 24px 80px;
@@ -12,17 +11,15 @@ left: 0px;
 top: 0px;
 background-color: #2E1942;
 }
+
 #logo{
     font-family: "Nico Moji";
     font-size: 44px;
     color:#E14817;
+    flex-basis: 0;
 }
 #navlist{
-    margin-left: 100px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    margin-right: 700px;
 }
 .navlist--item{
     padding: 0 40px;
