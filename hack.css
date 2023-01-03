@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/nicomoji.css);
+
+#navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 24px 80px;
+height: 103px;
+left: 0px;
+top: 0px;
+background-color: #2E1942;
+}
+
+#logo{
+    font-family: "Nico Moji";
+    font-size: 44px;
+    color:#E14817;
+    flex-basis: 0;
+}
+#navlist{
+    margin-right: 700px;
+}
+.navlist--item{
+    padding: 0 40px;
+    color: #FFFFFF;
+    font-family: 'Nunito Sans';
+    position: relative;
+}
+.navlist--item:after{
+    content: "";
+    position: absolute;
+    background-color:#E14817 ;
+    height: 1px;
+    bottom: -10px;
+    width: 0;
+    left: 0;
+}
+
+.navlist--item:hover:after{
+    width: 100%;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-left:200px;
+}
+#login{
+    font-family: 'Nunito Sans';
+    width: 99px;
+    height: 46px;
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+#signup{
+    width: 99px;
+    height: 46px;
+    background: #E14817;
+    font-family: 'Nunito Sans';
+    border-radius: 8px;
+    color: #FFFFFF;
+}
+#winter{
+justify-content: center;
+align-items: center;
+display: flex;
+height: 186px;
+left: 0px;
+top: 103px;
+background: #342A66;
+font-family: 'Nunito Sans';
+color: #FFFFFF;
+font-size: 36px;
+font-weight: 1000;
+}
+#woc{
+width: 80px;
+height: 80px;
+border-radius: 8px;
+margin-right: 24px;
+}
+#overview--heading{
+    font-family: "Nunito Sans";
+    font-size: 32px;
+    margin-left: 174px;
+    margin-top: 56px;
+    font-weight: 700;
+}
+#overview--img{
+    width: 720px;
+    height: 460px;
+    margin-left: 172px;
+    margin-top: 30px;
+    border-radius:8px;
+}
+#imgandtimer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+#timer{
+    background: #22417C;
+    height: 460px;
+    width: 400px;
+    border-radius: 8px;
+    margin-top: 30px;
+    margin-left:30px;
+    display: flex;
+}
+#timer--purplestick{
+width: 3px;
+height: 132px;
+background: #342A66;
+border-radius: 1.5px;
+margin-left: 32px;
+margin-top: 32px;
+}
+#timer--list{
+    margin-left: 16px;
+    margin-top: 32px;
+}
+.timerfont1{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Nunito Sans";
+    color: #B4BEC0;
+    letter-spacing: 1.68px;
+}
+.timerfont2{
+    font-size: 20px;
+    font-weight: 800;
+    font-family: "Nunito Sans";
+    color: #E9EFF2;
+}
+#space{
+    margin-top: 16.5px;
+}
+#timer--appclose{
+    margin-top: 40px;
+    width: 300px;
+    height: 100px;
+    background: #F0F4FF;
+    border-radius: 8px;
+    margin-left: -15px;
+}
+.timerfont3{
+    font-family: "Nunito Sans";
+    font-size: 14px;
+    color: #8097F2;
+    letter-spacing: 1.68px;
+    margin-left: 16px;
+    padding-top: 15px;
+}
+.timerfont4{
+    font-family: "Nunito Sans";
+    font-size: 20px;
+    font-weight: 800;
+    color: #143BE2;
+    letter-spacing: 1.68px;
+    margin-left: 16px;
+    padding-top: 15px;
+}
+#timer--apply{
+    background-color: #E45A2E;
+    width: 300px;
+    height: 80px;
+    margin-left: -15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-family: "Nunito Sans";
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+
+}
