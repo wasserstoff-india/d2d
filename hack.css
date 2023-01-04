@@ -60,11 +60,11 @@ background-color: #2E1942;
     border-radius: 8px;
     color: #FFFFFF;
 }
+
 #winter{
 justify-content: center;
 align-items: center;
 display: flex;
-height: 186px;
 left: 0px;
 top: 103px;
 background: #342A66;
@@ -73,12 +73,27 @@ color: #FFFFFF;
 font-size: 36px;
 font-weight: 1000;
 }
-#woc{
-width: 80px;
-height: 80px;
-border-radius: 8px;
-margin-right: 24px;
+#winter .text {
+  width: 35rem;
+  padding-left: 7rem;
 }
+#winter .text h1 {
+  font-size: 3rem;
+}
+#winter .text p {
+  font-size: 1rem;
+  font-weight: normal;
+}
+#winter svg {
+  margin: 4rem;
+}
+
+#sponsor-strip{
+  background-color: #22417C;
+  width: 100%;
+  height: 7rem;
+}
+
 #overview--heading{
     font-family: "Nunito Sans";
     font-size: 32px;
