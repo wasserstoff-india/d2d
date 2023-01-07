@@ -1,66 +1,146 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 @import url('https://fonts.googleapis.com/earlyaccess/nicomoji.css');
 
+body{
+  font-family: 'Nunito Sans';
+  font-size: 100%;
+}
+
+/* ----------- Navbar Start ------------- */
 
 #navbar{
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 24px 80px;
-  height: 103px;
-  left: 0px;
-  top: 0px;
   background-color: #2E1942;
+  padding: 1rem;
+  font-size: 16px;
+}
+#navbar div{
+  margin-left: 3rem;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#navbar ul{
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+}
+#navbar ul a{
+  color: white;
+  padding: 1rem 0;
+  margin-right: 4rem;
+  transition: all 0.2s;
+}
+#navbar ul a:hover{
+  border-bottom: 2px solid #E14817;
+}
+.nav-button{
+  padding: 1rem;
+  border-radius: 20px;
+  color: white;
+  background-color: #E14817;
+}
+.nav-button:hover{
+  color: white;
+  background-color: #ac2b00;
+}
+
+/* ----------- Navbar End ------------- */
+
+/* ----------- Hero Starts ------------- */
+
+#hero{
+  min-height: 85vh;
+  background-color: #342A66;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+#hero div{
+  max-width: 1400px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#hero article{
+  margin-right: 2rem;
+  max-width: 600px;
+}
+#hero h1{
+  font-size: 5rem;
+  font-weight: 500;
+  color: white;
+}
+#hero span{
+  font-family: "Nico Moji";
+  color: #E14817;
+}
+#hero p{
+  color: #CFCFD1;
+  font-size: 1.25rem;
+}
+@media (max-width: 1280px) {
+  #hero img{
+    width: 60vw;
+    min-width: 250px;
   }
-  
-  #logo{
-      font-family: "Nico Moji";
-      font-size: 44px;
-      color:#E14817;
-      flex-basis: 0;
+  #hero h1{
+    font-size: 4rem;
   }
-  #navlist{
-      margin-right: 700px;
+}
+@media (max-width: 768px) {
+  #hero div{
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  .navlist--item{
-      padding: 0 40px;
-      color: #FFFFFF;
-      font-family: 'Nunito Sans';
-      position: relative;
+  #hero article{
+    text-align: center;
+    margin-bottom: 2rem;
   }
-  .navlist--item:after{
-      content: "";
-      position: absolute;
-      background-color:#E14817 ;
-      height: 1px;
-      bottom: -10px;
-      width: 0;
-      left: 0;
+  #hero h1{
+    font-size: 3rem;
   }
-  
-  .navlist--item:hover:after{
-      width: 100%;
+  #hero p{
+    font-size: 1rem;
   }
-  .buttons{
-      display: flex;
-      flex-direction: row;
-      margin-left:200px;
+}
+/* ----------- Hero Ends ------------- */
+
+/*------------ Sponsorship starts ---- */
+
+#sponsorship{
+  background-color: #22417C;
+  padding: 1rem;
+}
+.swiper {
+  display: flex;
+  max-width: 1400px;
+  height: 150px;
+  margin: 0 auto;
+}
+.swiper-slide{
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.swiper-pagination{
+  bottom: -40px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #E14817 !important;
+}
+
+@media (max-width: 320px){
+  .swiper-slide img{
+    width: 50px;
   }
-  #login{
-      font-family: 'Nunito Sans';
-      width: 99px;
-      height: 46px;
-      border-radius: 8px;
-      color: #FFFFFF;
-  }
-  #signup{
-      width: 99px;
-      height: 46px;
-      background: #E14817;
-      font-family: 'Nunito Sans';
-      border-radius: 8px;
-      color: #FFFFFF;
-  }
+}
+
+/*------------ Sponsorship ends ------ */
+
   
   #winter{
   justify-content: center;
