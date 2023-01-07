@@ -11,11 +11,12 @@ body{
 #navbar{
   display: flex;
   align-items: center;
+  justify-content: flex-start;
   background-color: #2E1942;
   padding: 1rem;
   font-size: 16px;
 }
-#navbar div{
+#navlist{
   margin-left: 3rem;
   flex: 1;
   display: flex;
@@ -46,6 +47,71 @@ body{
   color: white;
   background-color: #ac2b00;
 }
+
+#navbar-toggler{
+  display: none;
+  position: relative;
+  cursor: pointer;
+  float: right;
+  margin-top: 35px;
+  margin-right: 2rem;
+}
+#navbar-toggler span{
+  position: absolute;
+  width: 30px;
+  height: 2px;
+  background-color: white;
+}
+#navbar-toggler span:nth-child(1){
+  top: -10px;
+}
+#navbar-toggler span:nth-child(2){
+  width: 15px !important;
+}
+#navbar-toggler span:nth-child(3){
+  top: 10px;
+}
+.active span{
+  position: absolute;
+  transform-origin: 1px 1px;
+  transition: all 0.5s;
+}
+.active span:nth-child(1){
+  transform: rotate(45deg);
+}
+.active span:nth-child(2){
+  display: none;
+}
+.active span:nth-child(3){
+  transform: rotate(-45deg);
+}
+
+@media (min-width: 768px){
+  #navlist{
+    display: flex !important;
+  }
+}
+
+@media (max-width: 768px) {
+  #navbar, #navlist ul, #navlist ul a, .nav-button, #navbar-toggler{
+    display: block;
+  }
+  #navlist{
+    display: none;
+    margin: 0 50px;
+  }
+  #navlist ul{
+    padding: 0;
+  }
+  #navlist ul a{
+    padding: 20px 0;
+    margin: 0;
+  }
+  .nav-button{
+    text-align: center;
+  }
+}
+
 
 /* ----------- Navbar End ------------- */
 
@@ -141,33 +207,77 @@ body{
 
 /*------------ Sponsorship ends ------ */
 
-  
-  #winter{
-  justify-content: center;
-  align-items: center;
+/*------------ About Starts ---------- */
+
+#about{
+  padding: 1rem;
+  background-color: #F8F8F8;
+}
+#about > div{
+  min-height: 100vh;
+  max-width: 1400px;
   display: flex;
-  left: 0px;
-  top: 103px;
-  background: #342A66;
-  font-family: 'Nunito Sans';
-  color: #FFFFFF;
-  font-size: 36px;
-  font-weight: 1000;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+.about-carousel{
+  background-color: #1B273D;
+  padding: 0.25rem;
+  margin-right: 4rem;
+  border-radius: 5px;
+}
+.swiper-about{
+  height: 450px;
+  width: 600px;
+  overflow: hidden;
+}
+.swiper-about img{
+  width: 100%;
+}
+#about article{
+  max-width: 500px;
+}
+#about h1{
+  font-size: 3rem;
+}
+#about p{
+  font-size: 1.25rem;
+}
+@media (max-width: 992px) {
+  .swiper-about{
+    height: 300px;
+    width: 450px;
+    overflow: hidden;
   }
-  #winter .text {
-    width: 35rem;
-    padding-left: 7rem;
+  #about h1{
+    font-size: 2rem;
   }
-  #winter .text h1 {
-    font-size: 3rem;
-  }
-  #winter .text p {
+  #about p{
     font-size: 1rem;
-    font-weight: normal;
   }
-  #winter svg {
-    margin: 4rem;
+}
+@media (max-width: 768px) {
+  #about > div{
+    flex-wrap: wrap-reverse;
   }
+  .about-carousel{
+    margin: 0;
+  }
+}
+@media (max-width: 576px) {
+  .swiper-about{
+    height: 175px;
+    width: 250px;
+    overflow: hidden;
+  }
+  #about p{
+    font-size: 0.85rem;
+  }
+}
+/*------------ About Ends ------------ */
+
+  
   
   #sponsor-strip{
     background-color: #22417C;
