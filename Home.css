@@ -6,6 +6,26 @@ body{
   font-size: 100%;
 }
 
+h1{
+  font-size: 3rem;
+}
+p{
+  font-size: 1.25rem;
+}
+@media (max-width: 992px) {
+  h1{
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  p{
+    font-size: 0.85rem;
+  }
+}
+
 /* ----------- Navbar Start ------------- */
 
 #navbar{
@@ -44,7 +64,6 @@ body{
   background-color: #E14817;
 }
 .nav-button:hover{
-  color: white;
   background-color: #ac2b00;
 }
 
@@ -146,7 +165,6 @@ body{
 }
 #hero p{
   color: #CFCFD1;
-  font-size: 1.25rem;
 }
 @media (max-width: 1280px) {
   #hero img{
@@ -210,11 +228,10 @@ body{
 /*------------ About Starts ---------- */
 
 #about{
-  padding: 1rem;
+  padding: 4rem 1rem;
   background-color: #F8F8F8;
 }
 #about > div{
-  min-height: 100vh;
   max-width: 1400px;
   display: flex;
   align-items: center;
@@ -238,23 +255,14 @@ body{
 #about article{
   max-width: 500px;
 }
-#about h1{
-  font-size: 3rem;
-}
 #about p{
-  font-size: 1.25rem;
+  line-height: 40px;
 }
 @media (max-width: 992px) {
   .swiper-about{
     height: 300px;
     width: 450px;
     overflow: hidden;
-  }
-  #about h1{
-    font-size: 2rem;
-  }
-  #about p{
-    font-size: 1rem;
   }
 }
 @media (max-width: 768px) {
@@ -277,7 +285,76 @@ body{
 }
 /*------------ About Ends ------------ */
 
-  
+/*------------ Events Start ------------ */
+
+#events{
+  padding: 4rem 1rem;
+}
+#events div{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#events h1{
+  font-size: 3rem;
+  color: #3371F2;
+  font-weight: bolder;
+  margin: 0;
+  padding: 0;
+  align-self: flex-start;
+}
+#events img{
+  width: 70%;
+}
+@media (max-width: 992px) {
+  #events h1{
+    font-size: 2rem;
+  }
+}
+
+/*------------ Events Ends ------------ */
+
+/*------------ Hackathon Start ------------ */
+
+#hackathon{
+  padding: 4rem 1rem;
+  background-color: #342A66;
+  color: white;
+}
+#hackathon div{
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#hackathon p{
+  margin: 1rem 0;
+  color: #CFCFD1;
+}
+#hackathon h1 + p{
+  max-width: 900px;
+}
+#hackathon img{
+  margin: 2rem 0;
+  width: 90vw;
+}
+#hackathon a{
+  padding: 1rem 4rem;
+  border-radius: 10px;
+  color: white;
+  background-color: #E14817;
+  margin-bottom: 2rem;
+}
+#hackathon a:hover{
+  background-color: #ac2b00;
+}
+/*------------ Hackathon Ends ------------ */
   
   #sponsor-strip{
     background-color: #22417C;
