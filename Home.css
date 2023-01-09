@@ -312,6 +312,15 @@ p{
 #events img{
   width: 70%;
 }
+#events a{
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    color: white;
+    background-color: #E14817;
+}
+#events a:hover{
+  background-color: #ac2b00;
+}
 @media (max-width: 992px) {
   #events h1{
     font-size: 2rem;
