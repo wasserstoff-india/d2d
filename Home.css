@@ -9,6 +9,15 @@ body{
 h1{
   font-size: 3rem;
 }
+footer h1{
+  font-size: 1rem !important;
+}
+footer p{
+  font-size: 0.75rem !important;
+}
+h2{
+  font-size: 2rem !important;
+}
 p{
   font-size: 1.25rem;
 }
@@ -19,10 +28,22 @@ p{
   p{
     font-size: 1rem;
   }
+  footer h1{
+    font-size: 1rem !important;
+  }
+  footer p{
+    font-size: 0.75rem !important;
+  }
 }
 @media (max-width: 576px) {
   p{
     font-size: 0.85rem;
+  }
+  footer h1{
+    font-size: 1rem !important;
+  }
+  footer p{
+    font-size: 0.75rem !important;
   }
 }
 
