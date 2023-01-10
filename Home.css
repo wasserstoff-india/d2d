@@ -9,15 +9,6 @@ body{
 h1{
   font-size: 3rem;
 }
-footer h1{
-  font-size: 1rem !important;
-}
-footer p{
-  font-size: 0.75rem !important;
-}
-h2{
-  font-size: 2rem !important;
-}
 p{
   font-size: 1.25rem;
 }
@@ -28,22 +19,10 @@ p{
   p{
     font-size: 1rem;
   }
-  footer h1{
-    font-size: 1rem !important;
-  }
-  footer p{
-    font-size: 0.75rem !important;
-  }
 }
 @media (max-width: 576px) {
   p{
     font-size: 0.85rem;
-  }
-  footer h1{
-    font-size: 1rem !important;
-  }
-  footer p{
-    font-size: 0.75rem !important;
   }
 }
 
@@ -93,8 +72,8 @@ p{
   position: relative;
   cursor: pointer;
   float: right;
-  margin-right: 2rem;
-  margin-top: -2rem;
+  margin-right: 3rem;
+  margin-top: 2.5rem;
 }
 #navbar-toggler span{
   position: absolute;
@@ -522,3 +501,91 @@ p{
   max-width: 600px;
 }
 /*------------ Sponsors Ends ---------- */
+
+/*------------ Footer Start --------- */
+
+footer{
+  padding: 4rem 1rem 0 1rem;
+}
+footer > div{
+  max-width: 1400px;
+  min-height: 300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+}
+footer h3{
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+footer p{
+  font-size: 0.75rem;
+  margin-right: 2rem;
+}
+footer ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer a{
+  color: #57585D;
+}
+footer > section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+footer > section a{
+  margin-right: 1rem;
+}
+footer > section > div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.language{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #a2a2a2;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  margin-right: 2rem;
+}
+footer svg{
+  margin-right: 1rem;
+}
+@media (max-width: 992px) {
+  footer > div{
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+  }
+  .newsletter{
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+}
+@media (max-width: 768px) {
+  footer > div{
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  footer > div section:first-child{
+    grid-column-start: 1;
+    grid-column-end: -1;
+    place-self: center;
+  }
+}
+@media (max-width: 576px){
+  footer > div{
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+  .newsletter{
+    text-align: center;
+  }
+  footer p + div {
+    margin-bottom: 2rem;
+  }
+}
+
+/*------------ Footer End --------- */
