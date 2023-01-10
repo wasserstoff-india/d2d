@@ -84,11 +84,5 @@ function d2d(){
     prizeSection.innerHTML = `
     <h1 class="text-2xl font-bold mb-6">D2D</h1>
             <p class="mb-4"><span class="text-[#3770FF] font-medium">D2D</span> has 6 tracks from which you can chose anyone or multiple and build your product out of that. You can find all the tracks <a class="text-blue-600 underline" href="https://docs.google.com/document/d/1ZHJse2cWcEXDrbCmnFGnexkXj8gVtmsVuUuJmcbssK0/edit?usp=sharing"> here in this document </a>. <br> Each Track has a different prize and will get a equal divisioin from the prize pool which will be disclosed on later stage. All the information about tracks are in the discord. For further question ask in discord. </p>
-            <p class="mb-3">Prizes up for grabs:</p>
-            <p class="mb-3 ml-12">₹10,000 for the best hack built on Ethereum, or</p>
-            <p class="mb-2 ml-12">₹15,000 for the best hack built on Ethereum + Polygon,</p>
-            <p class="mb-3 ml-12">Eligibility to apply for internship/full-time roles and seed funding of up to 5,000 USD for winners!</p>
-            <p class="mb-3">Read about the bounty details and find code templates for Polygon here:</p>
-            <a href="https://nsb.dev/polygon-bounty" class="mb-3 text-[#3770FF] font-medium">https://nsb.dev/polygon-bounty.</p>
     `;
 }
