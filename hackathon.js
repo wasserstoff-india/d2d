@@ -86,3 +86,12 @@ function d2d(){
             <p class="mb-4"><span class="text-[#3770FF] font-medium">D2D</span> has 6 tracks from which you can chose anyone or multiple and build your product out of that. You can find all the tracks <a class="text-blue-600 underline" href="https://docs.google.com/document/d/1ZHJse2cWcEXDrbCmnFGnexkXj8gVtmsVuUuJmcbssK0/edit?usp=sharing"> here in this document </a>. <br> Each Track has a different prize and will get a equal divisioin from the prize pool which will be disclosed on later stage. All the information about tracks are in the discord. For further question ask in discord. </p>
     `;
 }
+
+setInterval(()=>{
+    const d = new Date();
+    const t = new Date("January 15, 2023 23:59:00")
+    min = t.getMinutes() - d.getMinutes();
+    hr = t.getHours() - d.getHours();
+    date = t.getDate() - d.getDate();
+    document.getElementById('countdown').innerHTML = `${date}d:${hr}h:${min}m`;
+},1000);
