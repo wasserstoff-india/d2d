@@ -35,6 +35,13 @@ const testimonies = [
 ]
 const quote = document.getElementById("review");
 const name = document.getElementById("name");
+const next = document.getElementById("testimony-slide");
+next.addEventListener("click", () => {
+  quote.innerHTML = testimonies[i].review;
+  name.innerHTML = testimonies[i].name;
+  i++;
+  i = i%testimonies.length;
+})
 let i=0;
 setInterval(()=>{
   quote.innerHTML = testimonies[i].review;
