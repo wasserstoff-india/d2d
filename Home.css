@@ -305,25 +305,52 @@ p{
   font-size: 3rem;
   color: #3371F2;
   font-weight: bolder;
-  margin: 0;
+  margin: 0 0 4rem 0;
   padding: 0;
   align-self: flex-start;
 }
 #events img{
-  width: 70%;
+  width: 768px;
+  min-width: 250px;
 }
-#events a{
-    padding: 1rem 3rem;
-    border-radius: 20px;
-    color: white;
-    background-color: #E14817;
+#events article{
+  background-color: #342A66;
+  margin-top: -60px;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 4rem;
+  box-shadow: 4px 4px 17px rgba(27, 39, 61, 0.5);
 }
-#events a:hover{
-  background-color: #ac2b00;
+#events article h1{
+  font-family: "Nico Moji", 'sans-serif';
+  color: #E14817;
+  font-weight: light;
+  margin: 0;
+}
+#events article h1 small{
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+#events article p{
+  font-size: 1rem;
 }
 @media (max-width: 992px) {
   #events h1{
     font-size: 2rem;
+  }
+  #events article p{
+    font-size: 0.85rem;
+  }
+}
+@media (max-width: 768px) {
+  #events img{
+    width: 100%;
+  }
+  #events article{
+    margin-top: -10px;
+    padding: 0.5rem 1rem;
   }
 }
 
@@ -419,6 +446,7 @@ p{
 
 #testimony{
   padding: 4rem 2rem;
+  min-height: 100vh;
 }
 #testimony > div{
   max-width: 1400px;
@@ -464,6 +492,9 @@ p{
   padding: 0;
 }
 @media (max-width: 768px) {
+  #testimony{
+    min-height: 500px;
+  }
   #testimony q{
     font-size: 1.5rem;
   }
@@ -505,87 +536,25 @@ p{
 /*------------ Footer Start --------- */
 
 footer{
-  padding: 4rem 1rem 0 1rem;
+  padding: 1rem;
 }
-footer > div{
-  max-width: 1400px;
-  min-height: 300px;
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+footer > div > section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-footer h3{
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-footer p{
-  font-size: 0.75rem;
-  margin-right: 2rem;
-}
-footer ul{
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-footer a{
-  color: #57585D;
+footer > div > section > p{
+  margin-left: 1rem;
+  padding-top: 10px;
 }
 footer > section {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
+  justify-content: space-between;
 }
-footer > section a{
-  margin-right: 1rem;
-}
-footer > section > div{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.language{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid #a2a2a2;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  margin-right: 2rem;
-}
-footer svg{
-  margin-right: 1rem;
-}
-@media (max-width: 992px) {
-  footer > div{
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-  }
-  .newsletter{
-    grid-column-start: 1;
-    grid-column-end: -1;
-  }
-}
-@media (max-width: 768px) {
-  footer > div{
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  footer > div section:first-child{
-    grid-column-start: 1;
-    grid-column-end: -1;
-    place-self: center;
-  }
-}
-@media (max-width: 576px){
-  footer > div{
-    grid-template-columns: 1fr;
-    place-items: center;
-  }
-  .newsletter{
-    text-align: center;
-  }
-  footer p + div {
-    margin-bottom: 2rem;
-  }
+footer > section > div > svg{
+  margin-left: 1rem;
 }
 
 /*------------ Footer End --------- */

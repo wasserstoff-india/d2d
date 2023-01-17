@@ -1,0 +1,13 @@
+<svg width="263" height="370" viewBox="0 0 263 370" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="370" width="370" height="263" transform="rotate(-90 0 370)" fill="#1B273D"/>
+<rect x="60" y="138" width="144" height="81" rx="3" stroke="#5A667B" stroke-width="6"/>
+<line x1="133" y1="217" x2="133" y2="236" stroke="#5A667B" stroke-width="6"/>
+<line x1="153" y1="233" x2="112" y2="233" stroke="#5A667B" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="151" x2="145" y2="151" stroke="#E14817" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="162" x2="145" y2="162" stroke="#5A667B" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="173" x2="145" y2="173" stroke="#5A667B" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="184" x2="77" y2="184" stroke="#E14817" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="195" x2="77" y2="195" stroke="#5A667B" stroke-width="6" stroke-linecap="round"/>
+<line x1="186" y1="206" x2="77" y2="206" stroke="#5A667B" stroke-width="6" stroke-linecap="round"/>
+<rect x="74" y="148" width="61" height="26" fill="#E14817"/>
+</svg>

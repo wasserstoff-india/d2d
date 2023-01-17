@@ -89,9 +89,13 @@ function d2d(){
 
 setInterval(()=>{
     const d = new Date();
-    const t = new Date("January 15, 2023 23:59:00")
-    min = t.getMinutes() - d.getMinutes();
-    hr = t.getHours() - d.getHours();
-    date = t.getDate() - d.getDate();
-    document.getElementById('countdown').innerHTML = `${date}d:${hr}h:${min}m`;
+    const t = new Date("January 20, 2023 23:59:59")
+    if(d>t) document.getElementById('countdown').innerHTML = 'Applications Closed';
+    else{
+        sec = t.getSeconds() - d.getSeconds();
+        min = t.getMinutes() - d.getMinutes();
+        hr = t.getHours() - d.getHours();
+        date = t.getDate() - d.getDate();
+        document.getElementById('countdown').innerHTML = `${date}d:${hr}h:${min}m:${sec}s`;
+    }
 },1000);
